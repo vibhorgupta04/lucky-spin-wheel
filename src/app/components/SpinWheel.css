@@ -1,0 +1,33 @@
+.spin-wheel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-push-button {
+  background-color: #1d4ed8;
+  color: white;
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px; /* Added margin to separate from the wheel */
+}
+
+.big-push-button:hover {
+  background-color: #1e40af;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: green;
+}
+
+.congratulations {
+  font-size: 24px;
+  color: gold;
+  margin-top: 20px;
+}
